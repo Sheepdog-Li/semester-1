@@ -20,6 +20,28 @@ def currency_converter(amount, from_currency, to_currency):
 
     # your code here
 
+
+
+
+    if amount < 0:
+        return None
+
+
+    if from_currency == to_currency:
+        return round(amount,2)
+
+
+
+    if from_currency not in conversion_rate or to_currency not in conversion_rate[from_currency]:
+        return None
+
+
+
+    result = amount * conversion_rate[from_currency][to_currency]
+    return round(result, 2)
+
+
+
     return None
 
 # Submit only this file currency_converter.py with the completed function.
