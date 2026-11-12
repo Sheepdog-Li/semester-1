@@ -3,6 +3,26 @@
 L = int(input("Length of sequence: ")) # this should be your only input
 
 
+sequence = []
+seen = set()
+
+if L > 0:
+    current = 0
+    sequence.append(current)
+    seen.add(current)
+
+for k in range(1,L):
+    prev =sequence[-1]
+    candidate = prev - k
+    if  candidate > 0 and candidate not in  seen:
+        current = candidate
+    else:
+        current = prev + k
+
+    sequence.append(current)
+    seen.add(current)
+
+    
 # Your code for the Recaman Sequence
 # You should store the sequence in an appropriate data structure named 'sequence'
 

@@ -10,16 +10,16 @@ You can complete this task on the worksheet pdf if you prefer.
 
 |     Command                 |     Explanation    |
 |-----------------------------|--------------------|
-|     pwd                     | shows the current location of the terminal |
-|     ls                      | |
-|     cd directory_name       | |
-|     cd ..                   | |
-|     cd -                    | |
-|     mkdir directory_name    | |
-|     touch filename          | |
-|     git status              | |
-|     git add -A              | |
-|     git commit -m ""        | |
-|     git push                | |
-|     git pull                | |
+|     pwd                     | shows the current location of the terminal |shows the current location of the terminal
+|     ls                      | |show the all of the documents and files in this dictionary
+|     cd directory_name       | |go in to the specified document
+|     cd ..                   | |go to the level that higher one
+|     cd -                    | |go to the level that higher one
+|     mkdir directory_name    | |create a new document
+|     touch filename          | |create a new files
+|     git status              | |check the state of git now
+|     git add -A              | |add all of the modified ready to submit
+|     git commit -m ""        | |submit all of the modified that ready to submit
+|     git push                | |submit all of the modified that ready to submit
+|     git pull                | |download the data from repository to local
 
